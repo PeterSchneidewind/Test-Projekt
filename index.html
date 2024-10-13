@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Mobile Fall</title>
+
+   <script src="./script.js"></script>
+   <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+   <header>
+      <h1>Wie lange fällt das Handy?</h1>
+      <p>Probiere den Handyfall Rechner aus</p>
+   </header>
+
+   <section class="container-One">
+      <div class="intro">
+      <img src="./images/mountains-6919328_1280.jpg" alt="" class="slideshow-img" id="slideshow">
+      </div>
+
+       <div class="container-One-Content-Section">
+         <div class="conOneContent">
+            <h2 class="contentLine">Fast der Himmel</h2>
+            <p>Außer Atem kommst du oben an und schaust nach unten. Ein mulmiges Gefühl erfasst dich. Ziemlich hoch hier, denkst du. Wie lange wohl dein Handy bräuchte, um unten im weichen Schnee zu landen? Du schätzt die Höhe und fragst Io, deinen ständigen KI-Begleiter, ob er für dich schnell rechnen könnte.</p>
+            <p>"Kein Problem." Schnurrt Io, der noch immer wie eine erkältete Katze klingt.</p>
+            <h2 class="contentLine">"Was glaubst du, wie hoch es hier ist?"</h2>
+            <input type="numbers" placeholder="Eingabe in Metern" id="userInput" class="userInput"><button onclick="calcFall()" class="calcBtn">Berechnen</button>
+         </div>
+         <div class="resultDIV" id="resultDIV"></div>
+      </div>
+   </section>
+
+   <footer>
+      <p>Copiright &copy; <script>document.write(new Date().getFullYear())</script></script></p>
+
+   </footer>
+   
+</body>
+</html>
